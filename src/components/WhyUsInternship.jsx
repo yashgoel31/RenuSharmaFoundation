@@ -1,25 +1,12 @@
 import React from "react";
 import time from "../assets/time.svg";
 import SectionDetails from "./SectionDetails";
+import data from "../data/data.json"; 
 
-const WhyUs = () => {
-  const features = [
-    {
-      title: "Real Work Experience",
-      description:
-        "Work directly on software development projects to master your skills and build a strong project portfolio to get your.",
-    },
-    {
-      title: "Guaranteed job referral",
-      description:
-        "Our program seeks to eliminate financial risk in the upskilling journey with our guaranteed Job referrals option",
-    },
-    {
-      title: "Crack FAANG Interview",
-      description:
-        "Interact and Learn from mentors working in top product based companies to crack interviews for your dream role.",
-    },
-  ];
+
+
+const WhyUsInternship = () => {
+  const features = data.features;
   return (
     <div className="bg-[#F8FBFB] py-4 px-4 md:px-20 text-center min-h-screen">
       <h3 className="text-sky-500 font-bold uppercase text-sm tracking-wider ">
@@ -51,5 +38,4 @@ const WhyUs = () => {
     </div>
   );
 };
-
-export default WhyUs;
+export default WhyUsInternship;

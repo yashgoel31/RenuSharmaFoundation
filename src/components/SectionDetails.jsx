@@ -1,18 +1,11 @@
 import React from "react";
-import {
-  FaGamepad,
-  FaCog,
-  FaTrophy,
-  FaFolderOpen,
-  FaGlobe,
-} from "react-icons/fa";
-import { BiCodeAlt } from "react-icons/bi";
-
+ 
 import Game from "../assets/Game.svg";
 import Leaderboard from "../assets/Leaderboard.svg";
 import Playground from "../assets/Playground.svg";
 import Certificate from "../assets/Certificate.svg";
 import Community from "../assets/Community.svg";
+
 
 const features = [
   {
@@ -71,7 +64,6 @@ const features = [
     ),
   },
 ];
-
 const SectionDetails = () => {
   return (
     <div className="py-16 mt-12 md:mt-16 px-6 md:px-20 text-center">
