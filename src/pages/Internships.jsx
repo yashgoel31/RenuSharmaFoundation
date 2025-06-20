@@ -8,6 +8,8 @@ import HandsOnProjectSection_Internships from "../components/HandsOnProjectSecti
 import Alumni_Internship from "../components/Alumni_Internship";
 import Footer_Internship from "../components/Footer_Internship";
 import NextCohortSection_Internship from "../components/NextCohortSection_Internship";
+import ClientShowcase from "../components/Client_Showcase_Internship";
+import Faq_Internship from "../components/Faq_Internship";
 
 const Internships = () => {
   return (
@@ -19,6 +21,8 @@ const Internships = () => {
       <HandsOnProjectSection_Internships />
       <Alumni_Internship />
       <NextCohortSection_Internship />
+      <ClientShowcase />
+      < Faq_Internship />
       <Footer_Internship />
     </div>
   );
