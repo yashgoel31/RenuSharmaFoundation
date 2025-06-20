@@ -1,8 +1,7 @@
 @import "tailwindcss";
-=======
-@tailwind base;
+/* @tailwind base;
 @tailwind components;
-@tailwind utilities;
+@tailwind utilities; */
 
 /* Hide horizontal scrollbar but allow scroll */
 .no-scrollbar {
@@ -12,4 +11,3 @@
 .no-scrollbar::-webkit-scrollbar {
   display: none;            /* Chrome, Safari, Opera */
 }
->>>>>>> 9e44a279732b6e834b308a4b2aa7cddc8c0c99ca
