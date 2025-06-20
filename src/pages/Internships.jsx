@@ -7,7 +7,12 @@ import WhyUsInternship from '../components/WhyUsInternship'
 <<<<<<< HEAD
 =======
 import Alumni_Internship from '../components/Alumni_Internship'
+<<<<<<< HEAD
 >>>>>>> 9e44a279732b6e834b308a4b2aa7cddc8c0c99ca
+=======
+import Client_Showcase_Internship from '../components/Client_Showcase_Internship'
+import Faq_Internship from '../components/Faq_Internship'
+>>>>>>> cde7b61 (Adding Client_Showcase and Faq for internship component in the internship page)
 
 const Internships = () => {
   return (
@@ -22,6 +27,8 @@ const Internships = () => {
 >>>>>>> 9e44a279732b6e834b308a4b2aa7cddc8c0c99ca
       <HowItWorks_Internship />
       <Alumni_Internship />
+      <Client_Showcase_Internship />
+      <Faq_Internship />
     </div>
   )
 }

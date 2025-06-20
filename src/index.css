@@ -4,7 +4,7 @@
 @tailwind components;
 @tailwind utilities;
 
-/* Hide horizontal scrollbar but allow scroll */
+/* change in the global css for hiding the scroll bar in the Alumni_Internship.jsx component */
 .no-scrollbar {
   -ms-overflow-style: none; /* IE and Edge */
   scrollbar-width: none;    /* Firefox */
