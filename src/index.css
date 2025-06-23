@@ -1,7 +1,7 @@
-@import "tailwindcss";
-/* @tailwind base;
+
+@tailwind base;
+@tailwind utilities; 
 @tailwind components;
-@tailwind utilities; */
 
 /* change in the global css for hiding the scroll bar in the Alumni_Internship.jsx component */
 .no-scrollbar {
@@ -11,3 +11,4 @@
 .no-scrollbar::-webkit-scrollbar {
   display: none;            /* Chrome, Safari, Opera */
 }
+

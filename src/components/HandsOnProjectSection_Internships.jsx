@@ -56,7 +56,7 @@ const HandsOnProjectSection_Internships = () => {
   };
 
   return (
-    <section className="px-6 md:px-20 py-16 bg-white flex flex-col md:flex-row">
+    <section className="px-6 md:px-20 py-16 ml-36 mr-36 mb-0 bg-white flex flex-col md:flex-row">
       {/* Left Section */}
       <div className="w-full md:w-1/2">
         <div className="text-center md:text-left mb-10">
